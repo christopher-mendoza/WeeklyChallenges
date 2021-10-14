@@ -1,14 +1,14 @@
 package com.revature.maptests;
 
 import java.util.HashMap;
-import MapIterator.Iterator;
+import MapIterator.HashMapIterator;
 
 import org.junit.Test;
 
 public class IteratorTests {
 	HashMap<Integer, String> map = new HashMap<Integer, String>();
 	
-	Iterator I = new Iterator();
+	HashMapIterator I = new HashMapIterator();
 	
 	@Test
 	public void traverseTest() {
